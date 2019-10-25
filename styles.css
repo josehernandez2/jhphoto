@@ -1,4 +1,3 @@
-
 body {
     background: whitesmoke;
     padding: 64px 0px 0px 0px;
@@ -11,7 +10,10 @@ body {
 }
 
 a {
-    color: salmon !important;
+    color: #059 !important;
+}
+p {
+  color: rgba(0, 85, 153,.5);
 }
 .home-contact {
     padding-bottom: 36px; 
@@ -37,7 +39,7 @@ a {
 .fa-bars {
     font-size: 48px;
     cursor: pointer;
-    color: salmon;
+    color: rgb(0, 85, 153);
 }
 .navbar-brand {
     font-size: 48px;
@@ -84,10 +86,10 @@ a {
     cursor: pointer;
 }
 .modal a:hover {
-    color: grey !important;
+    color: rgba(0, 85, 153,.5) !important;
 }
 .nav-link:hover {
-    color: grey !important;
+    color: rgba(0, 85, 153,.5) !important;
 }
 .carousel {
     margin-top: 48px;
@@ -95,13 +97,19 @@ a {
 }
 .carousel .carousel-indicators li {
     background-color: #fff;
-    background-color: rgba(250, 128, 114, 0.5);
-  }
-  .carousel .carousel-indicators .active {
-    background-color: salmon;
-  }
+    background-color: rgba(0, 85, 153, 0.502);
+}
+.carousel .carousel-indicators .active {
+background-color: rgb(0, 85, 153);
+}
+.carousel-control-prev-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23059' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23059' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 .footer {
-    background-color: salmon;
+    background-color: rgba(0, 85, 153, .5);
     margin: 0px auto;
     padding: 64px 0px;
 }
