@@ -9,6 +9,7 @@
   "author": "Jose Hernandez II",
   "license": "ISC",
   "dependencies": {
+    "bcswipe": "^2.0.3",
     "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",

@@ -22,24 +22,9 @@ a {
 p {
   color: rgba(0, 85, 153,.5);
 }
-.home-contact {
-    padding-bottom: 36px; 
-    text-align: center;
-    font-size: 48px;
-}
-.home-contact-item {
-    padding-bottom: 36px;
-}
-@media screen and (max-width: 768px) {
-    .home-contact {
-        font-size: 24px
-    }
-}
-@media screen and (max-width: 576px) {
-    .home-contact {
-        font-size: 16px;
-    }
-}
+
+/* nav */
+
 .navbar {
     background: rgba(0, 0, 0, 0) !important;
 }
@@ -74,6 +59,9 @@ p {
         font-size: 24px
     }
 }
+
+/* nav modal */
+
 .modal {
     font-size: 48px;
 }
@@ -101,6 +89,9 @@ p {
 .nav-link:hover {
     color: rgba(0, 85, 153,.5) !important;
 }
+
+/* carousel */
+
 .carousel {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -118,6 +109,39 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23059' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+/* home contact */
+
+.home-contact {
+    padding-bottom: 36px; 
+    text-align: center;
+    font-size: 36px;
+}
+.home-contact-item {
+    padding-bottom: 36px;
+}
+@media screen and (max-width: 768px) {
+    .home-contact {
+        font-size: 24px
+    }
+}
+@media screen and (max-width: 576px) {
+    .home-contact {
+        font-size: 16px;
+    }
+}
+
+/* home about */
+
+.home-about h2 {
+    font-size: 24px;
+}
+.home-about p {
+    font-size: 16px;
+}
+
+/* footer */
+
 .footer {
     background-color: rgba(0, 85, 153, .5);
     margin: 0px auto;
